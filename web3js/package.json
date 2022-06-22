@@ -1,0 +1,21 @@
+{
+  "name": "web3js",
+  "version": "1.0.0",
+  "description": "Scratching the top of web3js",
+  "main": "index.js",
+  "scripts": {
+    "start": "node -r dotenv/config index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon -r dotenv/config index.js"
+  },
+  "author": "Daniele Bortolotti",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "nodemon": "^2.0.16",
+    "web3": "^1.7.3"
+  },
+  "devDependencies": {
+    "gitmoji-cli": "^5.0.1"
+  }
+}
